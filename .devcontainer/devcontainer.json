@@ -5,9 +5,10 @@
       "repositories": {
         "michaeleze/*": {
           "permissions": {
-            "issues": "write-all",
+            "issues": "write",
             "contents": "write",
-            "pull_requests": "write"
+            "pull_requests": "write",
+            "repository_projects": "write"
           }
         }
       }
