@@ -1,10 +1,13 @@
 {
+  "onCreateCommand": "setup-docs-team. sh",
   "customizations": {
     "codespaces": {
       "repositories": {
         "michaeleze/*": {
           "permissions": {
-            "issues": "write-all"
+            "issues": "write-all",
+            "contents": "write",
+            "pull_requests": "write"
           }
         }
       }
