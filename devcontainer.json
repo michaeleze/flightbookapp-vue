@@ -2,7 +2,7 @@
   "customizations": {
     "codespaces": {
       "repositories": {
-        "michaeleze/flightbookapp-vue": {
+        "michaeleze/*": {
           "permissions": {
             "issues": "write"
           }
